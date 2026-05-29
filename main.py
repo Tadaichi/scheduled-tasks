@@ -12,9 +12,6 @@ import pandas as pd
 import random
 import os
 
-MY_EMAIL = "tadaichilopez@gmail.com"
-MY_PASSWORD = "ctsijmoqdvuyplpn"
-
 MY_EMAIL = os.environ.get("MY_EMAIL")
 MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
